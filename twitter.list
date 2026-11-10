@@ -17,3 +17,28 @@ host-suffix, fbsbx.com, 社交分流
 # Instagram
 host-suffix, instagram.com, 社交分流
 host-suffix, cdninstagram.com, 社交分流
+
+# Telegram 基础连接：消息、群组/频道、图片视频与文件收发
+# telegram.org 仅作精确匹配，不将其广告平台等子域名整体纳入。
+host, telegram.org, 社交分流
+host-suffix, web.telegram.org, 社交分流
+host-suffix, t.me, 社交分流
+host-suffix, telegram.me, 社交分流
+
+# Telegram 官方 IP 段，核对日期：2026-11-10
+# 来源：https://core.telegram.org/resources/cidr.txt
+# 原生客户端可直接连接数据中心 IP，不能仅靠域名规则覆盖。
+ip-cidr, 91.108.56.0/22, 社交分流
+ip-cidr, 91.108.4.0/22, 社交分流
+ip-cidr, 91.108.8.0/22, 社交分流
+ip-cidr, 91.108.16.0/22, 社交分流
+ip-cidr, 91.108.12.0/22, 社交分流
+ip-cidr, 149.154.160.0/20, 社交分流
+ip-cidr, 91.105.192.0/23, 社交分流
+ip-cidr, 91.108.20.0/22, 社交分流
+ip-cidr, 185.76.151.0/24, 社交分流
+ip6-cidr, 2001:b28:f23d::/48, 社交分流
+ip6-cidr, 2001:b28:f23f::/48, 社交分流
+ip6-cidr, 2001:67c:4e8::/48, 社交分流
+ip6-cidr, 2001:b28:f23c::/48, 社交分流
+ip6-cidr, 2a0a:f280::/32, 社交分流
