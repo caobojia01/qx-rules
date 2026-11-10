@@ -1,0 +1,42 @@
+# 影音网站：YouTube / 奈飞 / 迪士尼 / 巴哈姆特动画疯
+# Quantumult X 原生规则；资源解析器关闭。
+# 每个 App 使用独立策略组；此资源的“策略偏好”关闭。
+
+# YouTube
+host-suffix, youtube.com, YouTube
+host-suffix, youtu.be, YouTube
+host-suffix, googlevideo.com, YouTube
+host-suffix, ytimg.com, YouTube
+host-suffix, ggpht.com, YouTube
+host, youtubei.googleapis.com, YouTube
+host, yt3.googleusercontent.com, YouTube
+host-suffix, youtube-nocookie.com, YouTube
+
+# 奈飞
+host-suffix, netflix.com, 奈飞
+host-suffix, netflix.net, 奈飞
+host-suffix, nflxext.com, 奈飞
+host-suffix, nflximg.com, 奈飞
+host-suffix, nflximg.net, 奈飞
+host-suffix, nflxsearch.net, 奈飞
+host-suffix, nflxso.net, 奈飞
+host-suffix, nflxvideo.net, 奈飞
+host-suffix, netflix.com.edgesuite.net, 奈飞
+
+# 迪士尼
+host-suffix, disneyplus.com, 迪士尼
+host-suffix, disney-plus.net, 迪士尼
+host-suffix, bamgrid.com, 迪士尼
+host-suffix, dssott.com, 迪士尼
+host-suffix, dssedge.com, 迪士尼
+host-suffix, disneystreaming.com, 迪士尼
+host-suffix, disneyaccount.com, 迪士尼
+host, my.disney.com, 迪士尼
+host, cdn.registerdisney.go.com, 迪士尼
+
+# 巴哈姆特动画疯
+host-suffix, gamer.com.tw, 巴哈姆特动画疯
+host-suffix, bahamut.com.tw, 巴哈姆特动画疯
+host-suffix, bahamut.akamaized.net, 巴哈姆特动画疯
+host, gamer-cds.cdn.hinet.net, 巴哈姆特动画疯
+host, gamer2-cds.cdn.hinet.net, 巴哈姆特动画疯
