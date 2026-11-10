@@ -1,4 +1,0 @@
-# 娱乐、媒体、社交等网站分流
-host-suffix, x.com, proxy
-host-suffix, twitter.com, proxy
-host-suffix, twimg.com, proxy
