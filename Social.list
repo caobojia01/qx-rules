@@ -1,0 +1,19 @@
+# 社交网站：推特X / Facebook / Instagram
+# Quantumult X 原生规则；资源解析器关闭。
+# 本文件统一使用“社交分流”策略组；资源“策略偏好”关闭。
+
+# 推特X
+host-suffix, x.com, 社交分流
+host-suffix, twitter.com, 社交分流
+host-suffix, twimg.com, 社交分流
+host-suffix, t.co, 社交分流
+
+# Facebook
+host-suffix, facebook.com, 社交分流
+host-suffix, facebook.net, 社交分流
+host-suffix, fbcdn.net, 社交分流
+host-suffix, fbsbx.com, 社交分流
+
+# Instagram
+host-suffix, instagram.com, 社交分流
+host-suffix, cdninstagram.com, 社交分流

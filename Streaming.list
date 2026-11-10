@@ -1,0 +1,42 @@
+# 影音网站：YouTube / 奈飞 / 迪士尼 / 巴哈姆特动画疯
+# Quantumult X 原生规则；资源解析器关闭。
+# 本文件统一使用“影音媒体分流”策略组；资源“策略偏好”关闭。
+
+# YouTube
+host-suffix, youtube.com, 影音媒体分流
+host-suffix, youtu.be, 影音媒体分流
+host-suffix, googlevideo.com, 影音媒体分流
+host-suffix, ytimg.com, 影音媒体分流
+host-suffix, ggpht.com, 影音媒体分流
+host, youtubei.googleapis.com, 影音媒体分流
+host, yt3.googleusercontent.com, 影音媒体分流
+host-suffix, youtube-nocookie.com, 影音媒体分流
+
+# 奈飞
+host-suffix, netflix.com, 影音媒体分流
+host-suffix, netflix.net, 影音媒体分流
+host-suffix, nflxext.com, 影音媒体分流
+host-suffix, nflximg.com, 影音媒体分流
+host-suffix, nflximg.net, 影音媒体分流
+host-suffix, nflxsearch.net, 影音媒体分流
+host-suffix, nflxso.net, 影音媒体分流
+host-suffix, nflxvideo.net, 影音媒体分流
+host-suffix, netflix.com.edgesuite.net, 影音媒体分流
+
+# 迪士尼
+host-suffix, disneyplus.com, 影音媒体分流
+host-suffix, disney-plus.net, 影音媒体分流
+host-suffix, bamgrid.com, 影音媒体分流
+host-suffix, dssott.com, 影音媒体分流
+host-suffix, dssedge.com, 影音媒体分流
+host-suffix, disneystreaming.com, 影音媒体分流
+host-suffix, disneyaccount.com, 影音媒体分流
+host, my.disney.com, 影音媒体分流
+host, cdn.registerdisney.go.com, 影音媒体分流
+
+# 巴哈姆特动画疯
+host-suffix, gamer.com.tw, 影音媒体分流
+host-suffix, bahamut.com.tw, 影音媒体分流
+host-suffix, bahamut.akamaized.net, 影音媒体分流
+host, gamer-cds.cdn.hinet.net, 影音媒体分流
+host, gamer2-cds.cdn.hinet.net, 影音媒体分流
